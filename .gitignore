@@ -1,0 +1,34 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+*.db
+dist/
+node_modules/
+
+# Environment and secrets
+.env.*
+!.env.example
+
+# Python environments and caches
+venv/
+env/
+__pycache__/
+.pytest_cache/
+
+# Databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup*
+backups/
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+
+# Local IDE files
+.vscode/
+.idea/
